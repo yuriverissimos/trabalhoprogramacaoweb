@@ -1,0 +1,160 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Garante que o body ocupe 100% da altura */
+    overflow-x: hidden;
+}
+/*Cabeçalho*/
+.header{
+    display: flex;
+    background-color: #090126;
+    height: 145px;
+    align-items: center;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 165px;
+}
+
+.header li{
+    margin-left: 216px;
+    
+}
+
+.header a{
+    text-decoration: none;
+}
+
+/* Pagina inicial */
+.logo{
+    display: flex;
+    margin: 0;
+    padding: 0%;
+    height: 180px;
+    width: 10px;
+    padding-left: 20;
+}
+.logo a ,h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    color: #D9CABE;
+    
+
+}
+.logo a,h3:hover{
+    color: #A2AEF2;
+    position: relative;
+}
+
+
+.aba1{
+    background-image: url(../img/vialactea.jpg);
+    height: 805px;
+    background-size: 1500px;
+    margin: 0; 
+    background-size: cover;
+}
+
+#imagem1{
+    margin-top: 0;
+    width: 730px;
+    height: 730px;
+    margin-right: 20px; 
+
+}
+.ctTitulo{
+    display: flex;
+    text-align: center;
+    float: right; width: 1100px;
+}
+.titulo1 {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    margin-right: 10px;
+    text-align: center;
+    color: #D9CABE;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    font-size: 90px;
+}
+
+.ctParagrafo{
+    display: flex;
+    justify-content: center; /* Centraliza o parágrafo */
+    width: 100%; /* Para ocupar toda a largura do contêiner */
+    margin-top: 20px; /* Espaço entre o título e o parágrafo */
+
+}
+.ctParagrafo #paragrafo1{
+    color: #D9CABE;
+    text-align: justify;
+    font-size: 30px;
+    font-family: "Hanken Grotesk", sans-serif;
+    margin-top: -560;
+    margin-left: 715px;
+}
+
+/*Noticias astronomicas do dia*/
+.aba2{
+    height: 1200;
+    width: 1920;
+    background-color:#090126 ;
+    
+    
+}
+
+.titulopag2{
+    margin: 0;
+    color: #D9CABE;
+    font-family: "Hanken Grotesk", sans-serif;
+    padding-top: 35px;
+    font-size: 75px;
+    text-align: center;
+}
+.caixa1{
+    background-color: #D9CABE;
+    background-size:cover;
+    width: 1870;
+    height: 1000px;
+    margin-left: 20;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.sub1{
+    margin: 0;
+    color: #090126;
+    font-family: "Hanken Grotesk", sans-serif;
+    text-align: center;
+    margin-top: 50;
+    font-size: 40;
+}
+.psub1{
+    font-family: "Hanken Grotesk", sans-serif;
+    color: #090126;
+    font-size: 20px;
+    padding-left: 35px;
+}
+
+.imgmarte{
+    margin-left: 820px;
+}
+
+.caixa2 {
+    background-color: #D9CABE;
+    background-size: cover;
+    width: 880px; /* Adicione 'px' para definir a unidade */
+    margin-left: 20px; /* Adicione 'px' para definir a unidade */
+    border-radius: 10px;
+}
+#imgmarte3{
+    margin-left: 500px;
+    
+}

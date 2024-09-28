@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Garante que o body ocupe 100% da altura */
+    overflow-x: hidden;
+    margin-top: -30;
+    background-color: #D9CABE;
+}
+.header{
+    display: flex;
+    background-color: #090126;
+    height: 145px;
+    align-items: center;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 165px;
+}
+
+.header li{
+    margin-left: 216px;
+    
+}
+
+.header a{
+    text-decoration: none;
+}
+
+/* Pagina inicial */
+.logo{
+    display: flex;
+    margin: 0;
+    padding: 0%;
+    height: 180px;
+    width: 10px;
+    padding-left: 20;
+}
+.logo a ,h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    color: #D9CABE;
+    
+
+}
+.logo a,h3:hover{
+    color: #A2AEF2;
+    position: relative;
+}
+/*KKKKK*/
+
+.titulo1{
+    color: #D9CABE;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 50px ;
+    padding-left: 19px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.planetas{
+    color: #D9CABE ;
+    padding-left: 20px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+li{
+    color: #D9CABE;
+    font-size: 22px;
+    padding-left: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+img{
+    display: block; /* Faz com que a imagem se comporte como um bloco */
+    margin: 0 auto;
+}
+iframe{
+    display: block; /* Faz com que a imagem se comporte como um bloco */
+    margin: 0 auto;
+    padding-bottom: 30px;
+    
+}
+.fundo{
+    
+    background-image: url(../img/voa.jpg);
+    height: 7300px;
+    background-size: 2000px;
+    margin: 0; 
+    background-size: contain;
+   
+    
+}
+
+
+
